@@ -31,3 +31,6 @@ print(end= '\n')
 name = input('inform your first name and last name?\n')
 first, last = name.split()
 print(first[::-1], last[::-1])
+
+string = "Hello"
+print(string[::-1])
