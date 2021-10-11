@@ -8,8 +8,8 @@ for rev in name_reverse:
     last_index = len(rev) - 1
     for index in range(last_index, -1, -1):
         print(rev[index], end='')
-    print(end= ' ')
-print(end= '\n')
+    print(end=' ')
+print(end='\n')
 
 
 ###The second way to reverse names
