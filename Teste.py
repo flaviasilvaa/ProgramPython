@@ -34,3 +34,21 @@ print(first[::-1], last[::-1])
 
 string = "Hello"
 print(string[::-1])
+
+##infinitive loop in 5
+x = 4
+while x < 10:
+    print(x+1)
+
+#############################it goes on until type quit
+inventory = []
+item = ""
+while item != "quit":
+    item = input("enter an item")
+    print("add new item")
+    inventory.append(item)
+
+
+#####
+x= 8
+while x < 10:print(x)x +=1
