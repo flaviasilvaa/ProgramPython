@@ -52,3 +52,13 @@ while item != "quit":
 #####
 x= 8
 while x < 10:print(x)x +=1
+
+
+x = 3
+y = 4
+
+def add(a,b):
+    result = x+ y
+    print(result)
+add(10,20)
+
